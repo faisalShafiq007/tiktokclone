@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="PackageTiktok">
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <!-- Microphone permissions -->
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <!-- Camera permissions -->
+  <uses-feature android:name="android.hardware.camera" />
+  <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+
+  <application android:requestLegacyExternalStorage="true"
+    android:allowBackup="true"
+
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+
+    <activity
+      android:name="com.daasuu.Tiktokvideo.PortraitCameraActivity"
+      android:screenOrientation="portrait">
+
+
+    </activity>
+
+  </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+# Referenced at E:\Bharat v3.0 With Play Button Without Description\Bharat v3.0 With Play Button Without Description\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:40
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\Bharat v3.0 With Play Button Without Description\Bharat v3.0 With Play Button Without Description\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:40
+-keep class com.bharat.status_app_all.App { <init>(); }
